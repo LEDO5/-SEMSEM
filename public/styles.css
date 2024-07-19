@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.game-container, .invite-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tapArea {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#tapCoin {
+    width: 100px;
+    height: 100px;
+}
+
+#boostButton, #inviteButton, .invite-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#inviteLink {
+    font-weight: bold;
+}
+
+#inviteList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#inviteList li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
